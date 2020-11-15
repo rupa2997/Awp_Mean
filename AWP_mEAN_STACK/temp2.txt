@@ -1,0 +1,2004 @@
+I am fine
+What About You
+
+ewsdxfcgvhbhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+
+--Node js is server side scripting langauge.
+   asynchronous calls
+--package.json-- it contains metadata of the project
+
+-module.exports
+module-current module
+export---an object that exposes the module outside
+MIME TYPE
+Contennt Type
+
+JSON stands for JavaScript Object Notation
+JSON is a lightweight format for storing and transporting data
+JSON is often used when data is sent from a server to a web page
+JSON is "self-describing" and easy to understand
+
+
+blueBird
+--transllate all the call back  function into promises
+
+--Package consist of multiplr modules
+
+-onclick=event.stop.Propagation(); used for solution to bublling effect
+
+Node js Quetions
+1)What is Node JS
+ 2)diff between Asynchrnoud and Blocking
+3)Node JS is single or multithreded??
+  --why it is faster than others
+4)what is callback function
+3)Entery Point of node JS
+    ---require statment
+4)What is package.json
+   --it contains metadata of the project
+5)top modules
+  --http
+ --url
+ --fs
+6)if method or function is asynchrnous nd not use await then what will be the response
+  ---The keyword await makes JavaScript wait until that promise settles and returns its result.
+  --
+7)difference betwen then and catch function
+8)Async, await & then, catch
+--in parent function we have to declare async
+--nd function which returns promises we have to initialize keyword await
+
+9)what is routing
+ --which package we can used for routing
+     --express --in that method called route
+10)in middleware function what is request response and next
+11)Default port number for node js
+   ---3000
+12)http method
+   --get,put,post,
+13)3 types  to send information to server
+      req.param-single --user/id--only particular info
+      key,value pair--req.query
+    --req.body
+14)port number--for success 200
+      for request 400
+      internal server error--503//not sure
+    --HTTP response status codes indicate whether a specific HTTP request has been successfully completed. Responses are grouped in five classes:
+
+Informational responses (100–199),
+Successful responses (200–299),
+Redirects (300–399),
+Client errors (400–499),
+and Server errors (500–599).
+15)
+--Node js is server side scripting langauge.
+   asynchronous calls
+--package.json-- it contains metadata of the project
+
+-module.exports
+module-current module
+export---an object that exposes the module outside
+MIME TYPE
+Contennt Type
+
+JSON stands for JavaScript Object Notation
+JSON is a lightweight format for storing and transporting data
+JSON is often used when data is sent from a server to a web page
+JSON is "self-describing" and easy to understand
+
+
+blueBird
+--transllate all the call back  function into promises
+
+--Package consist of multiplr modules
+
+-onclick=event.stop.Propagation(); used for solution to bublling effect
+
+Node js Quetions
+1)What is Node JS
+ 2)diff between Asynchrnoud and Blocking
+3)Node JS is single or multithreded??
+  --why it is faster than others
+4)what is callback function
+3)Entery Point of node JS
+    ---require statment
+4)What is package.json
+   --it contains metadata of the project
+5)top modules
+  --http
+ --url
+ --fs
+6)if method or function is asynchrnous nd not use await then what will be the response
+  ---The keyword await makes JavaScript wait until that promise settles and returns its result.
+  --
+7)difference betwen then and catch function
+8)Async, await & then, catch
+--in parent function we have to declare async
+--nd function which returns promises we have to initialize keyword await
+
+9)what is routing
+ --which package we can used for routing
+     --express --in that method called route
+10)in middleware function what is request response and next
+11)Default port number for node js
+   ---3000
+12)http method
+   --get,put,post,
+13)3 types  to send information to server
+      req.param-single --user/id--only particular info
+      key,value pair--req.query
+    --req.body
+14)port number--for success 200
+      for request 400
+      internal server error--503//not sure
+    --HTTP response status codes indicate whether a specific HTTP request has been successfully completed. Responses are grouped in five classes:
+
+Informational responses (100–199),
+Successful responses (200–299),
+Redirects (300–399),
+Client errors (400–499),
+and Server errors (500–599).
+15)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--Node js is server side scripting langauge.
+   asynchronous calls
+--package.json-- it contains metadata of the project
+
+-module.exports
+module-current module
+export---an object that exposes the module outside
+MIME TYPE
+Contennt Type
+
+JSON stands for JavaScript Object Notation
+JSON is a lightweight format for storing and transporting data
+JSON is often used when data is sent from a server to a web page
+JSON is "self-describing" and easy to understand
+
+
+blueBird
+--transllate all the call back  function into promises
+
+--Package consist of multiplr modules
+
+-onclick=event.stop.Propagation(); used for solution to bublling effect
+
+Node js Quetions
+1)What is Node JS
+ 2)diff between Asynchrnoud and Blocking
+3)Node JS is single or multithreded??
+  --why it is faster than others
+4)what is callback function
+3)Entery Point of node JS
+    ---require statment
+4)What is package.json
+   --it contains metadata of the project
+5)top modules
+  --http
+ --url
+ --fs
+6)if method or function is asynchrnous nd not use await then what will be the response
+  ---The keyword await makes JavaScript wait until that promise settles and returns its result.
+  --
+7)difference betwen then and catch function
+8)Async, await & then, catch
+--in parent function we have to declare async
+--nd function which returns promises we have to initialize keyword await
+
+9)what is routing
+ --which package we can used for routing
+     --express --in that method called route
+10)in middleware function what is request response and next
+11)Default port number for node js
+   ---3000
+12)http method
+   --get,put,post,
+13)3 types  to send information to server
+      req.param-single --user/id--only particular info
+      key,value pair--req.query
+    --req.body
+14)port number--for success 200
+      for request 400
+      internal server error--503//not sure
+    --HTTP response status codes indicate whether a specific HTTP request has been successfully completed. Responses are grouped in five classes:
+
+Informational responses (100–199),
+Successful responses (200–299),
+Redirects (300–399),
+Client errors (400–499),
+and Server errors (500–599).
+15)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--Node js is server side scripting langauge.
+   asynchronous calls
+--package.json-- it contains metadata of the project
+
+-module.exports
+module-current module
+export---an object that exposes the module outside
+MIME TYPE
+Contennt Type
+
+JSON stands for JavaScript Object Notation
+JSON is a lightweight format for storing and transporting data
+JSON is often used when data is sent from a server to a web page
+JSON is "self-describing" and easy to understand
+
+
+blueBird
+--transllate all the call back  function into promises
+
+--Package consist of multiplr modules
+
+-onclick=event.stop.Propagation(); used for solution to bublling effect
+
+Node js Quetions
+1)What is Node JS
+ 2)diff between Asynchrnoud and Blocking
+3)Node JS is single or multithreded??
+  --why it is faster than others
+4)what is callback function
+3)Entery Point of node JS
+    ---require statment
+4)What is package.json
+   --it contains metadata of the project
+5)top modules
+  --http
+ --url
+ --fs
+6)if method or function is asynchrnous nd not use await then what will be the response
+  ---The keyword await makes JavaScript wait until that promise settles and returns its result.
+  --
+7)difference betwen then and catch function
+8)Async, await & then, catch
+--in parent function we have to declare async
+--nd function which returns promises we have to initialize keyword await
+
+9)what is routing
+ --which package we can used for routing
+     --express --in that method called route
+10)in middleware function what is request response and next
+11)Default port number for node js
+   ---3000
+12)http method
+   --get,put,post,
+13)3 types  to send information to server
+      req.param-single --user/id--only particular info
+      key,value pair--req.query
+    --req.body
+14)port number--for success 200
+      for request 400
+      internal server error--503//not sure
+    --HTTP response status codes indicate whether a specific HTTP request has been successfully completed. Responses are grouped in five classes:
+
+Informational responses (100–199),
+Successful responses (200–299),
+Redirects (300–399),
+Client errors (400–499),
+and Server errors (500–599).
+15)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--Node js is server side scripting langauge.
+   asynchronous calls
+--package.json-- it contains metadata of the project
+
+-module.exports
+module-current module
+export---an object that exposes the module outside
+MIME TYPE
+Contennt Type
+
+JSON stands for JavaScript Object Notation
+JSON is a lightweight format for storing and transporting data
+JSON is often used when data is sent from a server to a web page
+JSON is "self-describing" and easy to understand
+
+
+blueBird
+--transllate all the call back  function into promises
+
+--Package consist of multiplr modules
+
+-onclick=event.stop.Propagation(); used for solution to bublling effect
+
+Node js Quetions
+1)What is Node JS
+ 2)diff between Asynchrnoud and Blocking
+3)Node JS is single or multithreded??
+  --why it is faster than others
+4)what is callback function
+3)Entery Point of node JS
+    ---require statment
+4)What is package.json
+   --it contains metadata of the project
+5)top modules
+  --http
+ --url
+ --fs
+6)if method or function is asynchrnous nd not use await then what will be the response
+  ---The keyword await makes JavaScript wait until that promise settles and returns its result.
+  --
+7)difference betwen then and catch function
+8)Async, await & then, catch
+--in parent function we have to declare async
+--nd function which returns promises we have to initialize keyword await
+
+9)what is routing
+ --which package we can used for routing
+     --express --in that method called route
+10)in middleware function what is request response and next
+11)Default port number for node js
+   ---3000
+12)http method
+   --get,put,post,
+13)3 types  to send information to server
+      req.param-single --user/id--only particular info
+      key,value pair--req.query
+    --req.body
+14)port number--for success 200
+      for request 400
+      internal server error--503//not sure
+    --HTTP response status codes indicate whether a specific HTTP request has been successfully completed. Responses are grouped in five classes:
+
+Informational responses (100–199),
+Successful responses (200–299),
+Redirects (300–399),
+Client errors (400–499),
+and Server errors (500–599).
+15)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--Node js is server side scripting langauge.
+   asynchronous calls
+--package.json-- it contains metadata of the project
+
+-module.exports
+module-current module
+export---an object that exposes the module outside
+MIME TYPE
+Contennt Type
+
+JSON stands for JavaScript Object Notation
+JSON is a lightweight format for storing and transporting data
+JSON is often used when data is sent from a server to a web page
+JSON is "self-describing" and easy to understand
+
+
+blueBird
+--transllate all the call back  function into promises
+
+--Package consist of multiplr modules
+
+-onclick=event.stop.Propagation(); used for solution to bublling effect
+
+Node js Quetions
+1)What is Node JS
+ 2)diff between Asynchrnoud and Blocking
+3)Node JS is single or multithreded??
+  --why it is faster than others
+4)what is callback function
+3)Entery Point of node JS
+    ---require statment
+4)What is package.json
+   --it contains metadata of the project
+5)top modules
+  --http
+ --url
+ --fs
+6)if method or function is asynchrnous nd not use await then what will be the response
+  ---The keyword await makes JavaScript wait until that promise settles and returns its result.
+  --
+7)difference betwen then and catch function
+8)Async, await & then, catch
+--in parent function we have to declare async
+--nd function which returns promises we have to initialize keyword await
+
+9)what is routing
+ --which package we can used for routing
+     --express --in that method called route
+10)in middleware function what is request response and next
+11)Default port number for node js
+   ---3000
+12)http method
+   --get,put,post,
+13)3 types  to send information to server
+      req.param-single --user/id--only particular info
+      key,value pair--req.query
+    --req.body
+14)port number--for success 200
+      for request 400
+      internal server error--503//not sure
+    --HTTP response status codes indicate whether a specific HTTP request has been successfully completed. Responses are grouped in five classes:
+
+Informational responses (100–199),
+Successful responses (200–299),
+Redirects (300–399),
+Client errors (400–499),
+and Server errors (500–599).
+15)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--Node js is server side scripting langauge.
+   asynchronous calls
+--package.json-- it contains metadata of the project
+
+-module.exports
+module-current module
+export---an object that exposes the module outside
+MIME TYPE
+Contennt Type
+
+JSON stands for JavaScript Object Notation
+JSON is a lightweight format for storing and transporting data
+JSON is often used when data is sent from a server to a web page
+JSON is "self-describing" and easy to understand
+
+
+blueBird
+--transllate all the call back  function into promises
+
+--Package consist of multiplr modules
+
+-onclick=event.stop.Propagation(); used for solution to bublling effect
+
+Node js Quetions
+1)What is Node JS
+ 2)diff between Asynchrnoud and Blocking
+3)Node JS is single or multithreded??
+  --why it is faster than others
+4)what is callback function
+3)Entery Point of node JS
+    ---require statment
+4)What is package.json
+   --it contains metadata of the project
+5)top modules
+  --http
+ --url
+ --fs
+6)if method or function is asynchrnous nd not use await then what will be the response
+  ---The keyword await makes JavaScript wait until that promise settles and returns its result.
+  --
+7)difference betwen then and catch function
+8)Async, await & then, catch
+--in parent function we have to declare async
+--nd function which returns promises we have to initialize keyword await
+
+9)what is routing
+ --which package we can used for routing
+     --express --in that method called route
+10)in middleware function what is request response and next
+11)Default port number for node js
+   ---3000
+12)http method
+   --get,put,post,
+13)3 types  to send information to server
+      req.param-single --user/id--only particular info
+      key,value pair--req.query
+    --req.body
+14)port number--for success 200
+      for request 400
+      internal server error--503//not sure
+    --HTTP response status codes indicate whether a specific HTTP request has been successfully completed. Responses are grouped in five classes:
+
+Informational responses (100–199),
+Successful responses (200–299),
+Redirects (300–399),
+Client errors (400–499),
+and Server errors (500–599).
+15)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--Node js is server side scripting langauge.
+   asynchronous calls
+--package.json-- it contains metadata of the project
+
+-module.exports
+module-current module
+export---an object that exposes the module outside
+MIME TYPE
+Contennt Type
+
+JSON stands for JavaScript Object Notation
+JSON is a lightweight format for storing and transporting data
+JSON is often used when data is sent from a server to a web page
+JSON is "self-describing" and easy to understand
+
+
+blueBird
+--transllate all the call back  function into promises
+
+--Package consist of multiplr modules
+
+-onclick=event.stop.Propagation(); used for solution to bublling effect
+
+Node js Quetions
+1)What is Node JS
+ 2)diff between Asynchrnoud and Blocking
+3)Node JS is single or multithreded??
+  --why it is faster than others
+4)what is callback function
+3)Entery Point of node JS
+    ---require statment
+4)What is package.json
+   --it contains metadata of the project
+5)top modules
+  --http
+ --url
+ --fs
+6)if method or function is asynchrnous nd not use await then what will be the response
+  ---The keyword await makes JavaScript wait until that promise settles and returns its result.
+  --
+7)difference betwen then and catch function
+8)Async, await & then, catch
+--in parent function we have to declare async
+--nd function which returns promises we have to initialize keyword await
+
+9)what is routing
+ --which package we can used for routing
+     --express --in that method called route
+10)in middleware function what is request response and next
+11)Default port number for node js
+   ---3000
+12)http method
+   --get,put,post,
+13)3 types  to send information to server
+      req.param-single --user/id--only particular info
+      key,value pair--req.query
+    --req.body
+14)port number--for success 200
+      for request 400
+      internal server error--503//not sure
+    --HTTP response status codes indicate whether a specific HTTP request has been successfully completed. Responses are grouped in five classes:
+
+Informational responses (100–199),
+Successful responses (200–299),
+Redirects (300–399),
+Client errors (400–499),
+and Server errors (500–599).
+15)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--Node js is server side scripting langauge.
+   asynchronous calls
+--package.json-- it contains metadata of the project
+
+-module.exports
+module-current module
+export---an object that exposes the module outside
+MIME TYPE
+Contennt Type
+
+JSON stands for JavaScript Object Notation
+JSON is a lightweight format for storing and transporting data
+JSON is often used when data is sent from a server to a web page
+JSON is "self-describing" and easy to understand
+
+
+blueBird
+--transllate all the call back  function into promises
+
+--Package consist of multiplr modules
+
+-onclick=event.stop.Propagation(); used for solution to bublling effect
+
+Node js Quetions
+1)What is Node JS
+ 2)diff between Asynchrnoud and Blocking
+3)Node JS is single or multithreded??
+  --why it is faster than others
+4)what is callback function
+3)Entery Point of node JS
+    ---require statment
+4)What is package.json
+   --it contains metadata of the project
+5)top modules
+  --http
+ --url
+ --fs
+6)if method or function is asynchrnous nd not use await then what will be the response
+  ---The keyword await makes JavaScript wait until that promise settles and returns its result.
+  --
+7)difference betwen then and catch function
+8)Async, await & then, catch
+--in parent function we have to declare async
+--nd function which returns promises we have to initialize keyword await
+
+9)what is routing
+ --which package we can used for routing
+     --express --in that method called route
+10)in middleware function what is request response and next
+11)Default port number for node js
+   ---3000
+12)http method
+   --get,put,post,
+13)3 types  to send information to server
+      req.param-single --user/id--only particular info
+      key,value pair--req.query
+    --req.body
+14)port number--for success 200
+      for request 400
+      internal server error--503//not sure
+    --HTTP response status codes indicate whether a specific HTTP request has been successfully completed. Responses are grouped in five classes:
+
+Informational responses (100–199),
+Successful responses (200–299),
+Redirects (300–399),
+Client errors (400–499),
+and Server errors (500–599).
+15)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--Node js is server side scripting langauge.
+   asynchronous calls
+--package.json-- it contains metadata of the project
+
+-module.exports
+module-current module
+export---an object that exposes the module outside
+MIME TYPE
+Contennt Type
+
+JSON stands for JavaScript Object Notation
+JSON is a lightweight format for storing and transporting data
+JSON is often used when data is sent from a server to a web page
+JSON is "self-describing" and easy to understand
+
+
+blueBird
+--transllate all the call back  function into promises
+
+--Package consist of multiplr modules
+
+-onclick=event.stop.Propagation(); used for solution to bublling effect
+
+Node js Quetions
+1)What is Node JS
+ 2)diff between Asynchrnoud and Blocking
+3)Node JS is single or multithreded??
+  --why it is faster than others
+4)what is callback function
+3)Entery Point of node JS
+    ---require statment
+4)What is package.json
+   --it contains metadata of the project
+5)top modules
+  --http
+ --url
+ --fs
+6)if method or function is asynchrnous nd not use await then what will be the response
+  ---The keyword await makes JavaScript wait until that promise settles and returns its result.
+  --
+7)difference betwen then and catch function
+8)Async, await & then, catch
+--in parent function we have to declare async
+--nd function which returns promises we have to initialize keyword await
+
+9)what is routing
+ --which package we can used for routing
+     --express --in that method called route
+10)in middleware function what is request response and next
+11)Default port number for node js
+   ---3000
+12)http method
+   --get,put,post,
+13)3 types  to send information to server
+      req.param-single --user/id--only particular info
+      key,value pair--req.query
+    --req.body
+14)port number--for success 200
+      for request 400
+      internal server error--503//not sure
+    --HTTP response status codes indicate whether a specific HTTP request has been successfully completed. Responses are grouped in five classes:
+
+Informational responses (100–199),
+Successful responses (200–299),
+Redirects (300–399),
+Client errors (400–499),
+and Server errors (500–599).
+15)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+v
+--Node js is server side scripting langauge.
+   asynchronous calls
+--package.json-- it contains metadata of the project
+
+-module.exports
+module-current module
+export---an object that exposes the module outside
+MIME TYPE
+Contennt Type
+
+JSON stands for JavaScript Object Notation
+JSON is a lightweight format for storing and transporting data
+JSON is often used when data is sent from a server to a web page
+JSON is "self-describing" and easy to understand
+
+
+blueBird
+--transllate all the call back  function into promises
+
+--Package consist of multiplr modules
+
+-onclick=event.stop.Propagation(); used for solution to bublling effect
+
+Node js Quetions
+1)What is Node JS
+ 2)diff between Asynchrnoud and Blocking
+3)Node JS is single or multithreded??
+  --why it is faster than others
+4)what is callback function
+3)Entery Point of node JS
+    ---require statment
+4)What is package.json
+   --it contains metadata of the project
+5)top modules
+  --http
+ --url
+ --fs
+6)if method or function is asynchrnous nd not use await then what will be the response
+  ---The keyword await makes JavaScript wait until that promise settles and returns its result.
+  --
+7)difference betwen then and catch function
+8)Async, await & then, catch
+--in parent function we have to declare async
+--nd function which returns promises we have to initialize keyword await
+
+9)what is routing
+ --which package we can used for routing
+     --express --in that method called route
+10)in middleware function what is request response and next
+11)Default port number for node js
+   ---3000
+12)http method
+   --get,put,post,
+13)3 types  to send information to server
+      req.param-single --user/id--only particular info
+      key,value pair--req.query
+    --req.body
+14)port number--for success 200
+      for request 400
+      internal server error--503//not sure
+    --HTTP response status codes indicate whether a specific HTTP request has been successfully completed. Responses are grouped in five classes:
+
+Informational responses (100–199),
+Successful responses (200–299),
+Redirects (300–399),
+Client errors (400–499),
+and Server errors (500–599).
+15)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+v
+v
+v
+v
+v
+--Node js is server side scripting langauge.
+   asynchronous calls
+--package.json-- it contains metadata of the project
+
+-module.exports
+module-current module
+export---an object that exposes the module outside
+MIME TYPE
+Contennt Type
+
+JSON stands for JavaScript Object Notation
+JSON is a lightweight format for storing and transporting data
+JSON is often used when data is sent from a server to a web page
+JSON is "self-describing" and easy to understand
+
+
+blueBird
+--transllate all the call back  function into promises
+
+--Package consist of multiplr modules
+
+-onclick=event.stop.Propagation(); used for solution to bublling effect
+
+Node js Quetions
+1)What is Node JS
+ 2)diff between Asynchrnoud and Blocking
+3)Node JS is single or multithreded??
+  --why it is faster than others
+4)what is callback function
+3)Entery Point of node JS
+    ---require statment
+4)What is package.json
+   --it contains metadata of the project
+5)top modules
+  --http
+ --url
+ --fs
+6)if method or function is asynchrnous nd not use await then what will be the response
+  ---The keyword await makes JavaScript wait until that promise settles and returns its result.
+  --
+7)difference betwen then and catch function
+8)Async, await & then, catch
+--in parent function we have to declare async
+--nd function which returns promises we have to initialize keyword await
+
+9)what is routing
+ --which package we can used for routing
+     --express --in that method called route
+10)in middleware function what is request response and next
+11)Default port number for node js
+   ---3000
+12)http method
+   --get,put,post,
+13)3 types  to send information to server
+      req.param-single --user/id--only particular info
+      key,value pair--req.query
+    --req.body
+14)port number--for success 200
+      for request 400
+      internal server error--503//not sure
+    --HTTP response status codes indicate whether a specific HTTP request has been successfully completed. Responses are grouped in five classes:
+
+Informational responses (100–199),
+Successful responses (200–299),
+Redirects (300–399),
+Client errors (400–499),
+and Server errors (500–599).
+15)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--Node js is server side scripting langauge.
+   asynchronous calls
+--package.json-- it contains metadata of the project
+
+-module.exports
+module-current module
+export---an object that exposes the module outside
+MIME TYPE
+Contennt Type
+
+JSON stands for JavaScript Object Notation
+JSON is a lightweight format for storing and transporting data
+JSON is often used when data is sent from a server to a web page
+JSON is "self-describing" and easy to understand
+
+
+blueBird
+--transllate all the call back  function into promises
+
+--Package consist of multiplr modules
+
+-onclick=event.stop.Propagation(); used for solution to bublling effect
+
+Node js Quetions
+1)What is Node JS
+ 2)diff between Asynchrnoud and Blocking
+3)Node JS is single or multithreded??
+  --why it is faster than others
+4)what is callback function
+3)Entery Point of node JS
+    ---require statment
+4)What is package.json
+   --it contains metadata of the project
+5)top modules
+  --http
+ --url
+ --fs
+6)if method or function is asynchrnous nd not use await then what will be the response
+  ---The keyword await makes JavaScript wait until that promise settles and returns its result.
+  --
+7)difference betwen then and catch function
+8)Async, await & then, catch
+--in parent function we have to declare async
+--nd function which returns promises we have to initialize keyword await
+
+9)what is routing
+ --which package we can used for routing
+     --express --in that method called route
+10)in middleware function what is request response and next
+11)Default port number for node js
+   ---3000
+12)http method
+   --get,put,post,
+13)3 types  to send information to server
+      req.param-single --user/id--only particular info
+      key,value pair--req.query
+    --req.body
+14)port number--for success 200
+      for request 400
+      internal server error--503//not sure
+    --HTTP response status codes indicate whether a specific HTTP request has been successfully completed. Responses are grouped in five classes:
+
+Informational responses (100–199),
+Successful responses (200–299),
+Redirects (300–399),
+Client errors (400–499),
+and Server errors (500–599).
+15)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--Node js is server side scripting langauge.
+   asynchronous calls
+--package.json-- it contains metadata of the project
+
+-module.exports
+module-current module
+export---an object that exposes the module outside
+MIME TYPE
+Contennt Type
+
+JSON stands for JavaScript Object Notation
+JSON is a lightweight format for storing and transporting data
+JSON is often used when data is sent from a server to a web page
+JSON is "self-describing" and easy to understand
+
+
+blueBird
+--transllate all the call back  function into promises
+
+--Package consist of multiplr modules
+
+-onclick=event.stop.Propagation(); used for solution to bublling effect
+
+Node js Quetions
+1)What is Node JS
+ 2)diff between Asynchrnoud and Blocking
+3)Node JS is single or multithreded??
+  --why it is faster than others
+4)what is callback function
+3)Entery Point of node JS
+    ---require statment
+4)What is package.json
+   --it contains metadata of the project
+5)top modules
+  --http
+ --url
+ --fs
+6)if method or function is asynchrnous nd not use await then what will be the response
+  ---The keyword await makes JavaScript wait until that promise settles and returns its result.
+  --
+7)difference betwen then and catch function
+8)Async, await & then, catch
+--in parent function we have to declare async
+--nd function which returns promises we have to initialize keyword await
+
+9)what is routing
+ --which package we can used for routing
+     --express --in that method called route
+10)in middleware function what is request response and next
+11)Default port number for node js
+   ---3000
+12)http method
+   --get,put,post,
+13)3 types  to send information to server
+      req.param-single --user/id--only particular info
+      key,value pair--req.query
+    --req.body
+14)port number--for success 200
+      for request 400
+      internal server error--503//not sure
+    --HTTP response status codes indicate whether a specific HTTP request has been successfully completed. Responses are grouped in five classes:
+
+Informational responses (100–199),
+Successful responses (200–299),
+Redirects (300–399),
+Client errors (400–499),
+and Server errors (500–599).
+15)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--Node js is server side scripting langauge.
+   asynchronous calls
+--package.json-- it contains metadata of the project
+
+-module.exports
+module-current module
+export---an object that exposes the module outside
+MIME TYPE
+Contennt Type
+
+JSON stands for JavaScript Object Notation
+JSON is a lightweight format for storing and transporting data
+JSON is often used when data is sent from a server to a web page
+JSON is "self-describing" and easy to understand
+
+
+blueBird
+--transllate all the call back  function into promises
+
+--Package consist of multiplr modules
+
+-onclick=event.stop.Propagation(); used for solution to bublling effect
+
+Node js Quetions
+1)What is Node JS
+ 2)diff between Asynchrnoud and Blocking
+3)Node JS is single or multithreded??
+  --why it is faster than others
+4)what is callback function
+3)Entery Point of node JS
+    ---require statment
+4)What is package.json
+   --it contains metadata of the project
+5)top modules
+  --http
+ --url
+ --fs
+6)if method or function is asynchrnous nd not use await then what will be the response
+  ---The keyword await makes JavaScript wait until that promise settles and returns its result.
+  --
+7)difference betwen then and catch function
+8)Async, await & then, catch
+--in parent function we have to declare async
+--nd function which returns promises we have to initialize keyword await
+
+9)what is routing
+ --which package we can used for routing
+     --express --in that method called route
+10)in middleware function what is request response and next
+11)Default port number for node js
+   ---3000
+12)http method
+   --get,put,post,
+13)3 types  to send information to server
+      req.param-single --user/id--only particular info
+      key,value pair--req.query
+    --req.body
+14)port number--for success 200
+      for request 400
+      internal server error--503//not sure
+    --HTTP response status codes indicate whether a specific HTTP request has been successfully completed. Responses are grouped in five classes:
+
+Informational responses (100–199),
+Successful responses (200–299),
+Redirects (300–399),
+Client errors (400–499),
+and Server errors (500–599).
+15)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--Node js is server side scripting langauge.
+   asynchronous calls
+--package.json-- it contains metadata of the project
+
+-module.exports
+module-current module
+export---an object that exposes the module outside
+MIME TYPE
+Contennt Type
+
+JSON stands for JavaScript Object Notation
+JSON is a lightweight format for storing and transporting data
+JSON is often used when data is sent from a server to a web page
+JSON is "self-describing" and easy to understand
+
+
+blueBird
+--transllate all the call back  function into promises
+
+--Package consist of multiplr modules
+
+-onclick=event.stop.Propagation(); used for solution to bublling effect
+
+Node js Quetions
+1)What is Node JS
+ 2)diff between Asynchrnoud and Blocking
+3)Node JS is single or multithreded??
+  --why it is faster than others
+4)what is callback function
+3)Entery Point of node JS
+    ---require statment
+4)What is package.json
+   --it contains metadata of the project
+5)top modules
+  --http
+ --url
+ --fs
+6)if method or function is asynchrnous nd not use await then what will be the response
+  ---The keyword await makes JavaScript wait until that promise settles and returns its result.
+  --
+7)difference betwen then and catch function
+8)Async, await & then, catch
+--in parent function we have to declare async
+--nd function which returns promises we have to initialize keyword await
+
+9)what is routing
+ --which package we can used for routing
+     --express --in that method called route
+10)in middleware function what is request response and next
+11)Default port number for node js
+   ---3000
+12)http method
+   --get,put,post,
+13)3 types  to send information to server
+      req.param-single --user/id--only particular info
+      key,value pair--req.query
+    --req.body
+14)port number--for success 200
+      for request 400
+      internal server error--503//not sure
+    --HTTP response status codes indicate whether a specific HTTP request has been successfully completed. Responses are grouped in five classes:
+
+Informational responses (100–199),
+Successful responses (200–299),
+Redirects (300–399),
+Client errors (400–499),
+and Server errors (500–599).
+15)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--Node js is server side scripting langauge.
+   asynchronous calls
+--package.json-- it contains metadata of the project
+
+-module.exports
+module-current module
+export---an object that exposes the module outside
+MIME TYPE
+Contennt Type
+
+JSON stands for JavaScript Object Notation
+JSON is a lightweight format for storing and transporting data
+JSON is often used when data is sent from a server to a web page
+JSON is "self-describing" and easy to understand
+
+
+blueBird
+--transllate all the call back  function into promises
+
+--Package consist of multiplr modules
+
+-onclick=event.stop.Propagation(); used for solution to bublling effect
+
+Node js Quetions
+1)What is Node JS
+ 2)diff between Asynchrnoud and Blocking
+3)Node JS is single or multithreded??
+  --why it is faster than others
+4)what is callback function
+3)Entery Point of node JS
+    ---require statment
+4)What is package.json
+   --it contains metadata of the project
+5)top modules
+  --http
+ --url
+ --fs
+6)if method or function is asynchrnous nd not use await then what will be the response
+  ---The keyword await makes JavaScript wait until that promise settles and returns its result.
+  --
+7)difference betwen then and catch function
+8)Async, await & then, catch
+--in parent function we have to declare async
+--nd function which returns promises we have to initialize keyword await
+
+9)what is routing
+ --which package we can used for routing
+     --express --in that method called route
+10)in middleware function what is request response and next
+11)Default port number for node js
+   ---3000
+12)http method
+   --get,put,post,
+13)3 types  to send information to server
+      req.param-single --user/id--only particular info
+      key,value pair--req.query
+    --req.body
+14)port number--for success 200
+      for request 400
+      internal server error--503//not sure
+    --HTTP response status codes indicate whether a specific HTTP request has been successfully completed. Responses are grouped in five classes:
+
+Informational responses (100–199),
+Successful responses (200–299),
+Redirects (300–399),
+Client errors (400–499),
+and Server errors (500–599).
+15)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--Node js is server side scripting langauge.
+   asynchronous calls
+--package.json-- it contains metadata of the project
+
+-module.exports
+module-current module
+export---an object that exposes the module outside
+MIME TYPE
+Contennt Type
+
+JSON stands for JavaScript Object Notation
+JSON is a lightweight format for storing and transporting data
+JSON is often used when data is sent from a server to a web page
+JSON is "self-describing" and easy to understand
+
+
+blueBird
+--transllate all the call back  function into promises
+
+--Package consist of multiplr modules
+
+-onclick=event.stop.Propagation(); used for solution to bublling effect
+
+Node js Quetions
+1)What is Node JS
+ 2)diff between Asynchrnoud and Blocking
+3)Node JS is single or multithreded??
+  --why it is faster than others
+4)what is callback function
+3)Entery Point of node JS
+    ---require statment
+4)What is package.json
+   --it contains metadata of the project
+5)top modules
+  --http
+ --url
+ --fs
+6)if method or function is asynchrnous nd not use await then what will be the response
+  ---The keyword await makes JavaScript wait until that promise settles and returns its result.
+  --
+7)difference betwen then and catch function
+8)Async, await & then, catch
+--in parent function we have to declare async
+--nd function which returns promises we have to initialize keyword await
+
+9)what is routing
+ --which package we can used for routing
+     --express --in that method called route
+10)in middleware function what is request response and next
+11)Default port number for node js
+   ---3000
+12)http method
+   --get,put,post,
+13)3 types  to send information to server
+      req.param-single --user/id--only particular info
+      key,value pair--req.query
+    --req.body
+14)port number--for success 200
+      for request 400
+      internal server error--503//not sure
+    --HTTP response status codes indicate whether a specific HTTP request has been successfully completed. Responses are grouped in five classes:
+
+Informational responses (100–199),
+Successful responses (200–299),
+Redirects (300–399),
+Client errors (400–499),
+and Server errors (500–599).
+15)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--Node js is server side scripting langauge.
+   asynchronous calls
+--package.json-- it contains metadata of the project
+
+-module.exports
+module-current module
+export---an object that exposes the module outside
+MIME TYPE
+Contennt Type
+
+JSON stands for JavaScript Object Notation
+JSON is a lightweight format for storing and transporting data
+JSON is often used when data is sent from a server to a web page
+JSON is "self-describing" and easy to understand
+
+
+blueBird
+--transllate all the call back  function into promises
+
+--Package consist of multiplr modules
+
+-onclick=event.stop.Propagation(); used for solution to bublling effect
+
+Node js Quetions
+1)What is Node JS
+ 2)diff between Asynchrnoud and Blocking
+3)Node JS is single or multithreded??
+  --why it is faster than others
+4)what is callback function
+3)Entery Point of node JS
+    ---require statment
+4)What is package.json
+   --it contains metadata of the project
+5)top modules
+  --http
+ --url
+ --fs
+6)if method or function is asynchrnous nd not use await then what will be the response
+  ---The keyword await makes JavaScript wait until that promise settles and returns its result.
+  --
+7)difference betwen then and catch function
+8)Async, await & then, catch
+--in parent function we have to declare async
+--nd function which returns promises we have to initialize keyword await
+
+9)what is routing
+ --which package we can used for routing
+     --express --in that method called route
+10)in middleware function what is request response and next
+11)Default port number for node js
+   ---3000
+12)http method
+   --get,put,post,
+13)3 types  to send information to server
+      req.param-single --user/id--only particular info
+      key,value pair--req.query
+    --req.body
+14)port number--for success 200
+      for request 400
+      internal server error--503//not sure
+    --HTTP response status codes indicate whether a specific HTTP request has been successfully completed. Responses are grouped in five classes:
+
+Informational responses (100–199),
+Successful responses (200–299),
+Redirects (300–399),
+Client errors (400–499),
+and Server errors (500–599).
+15)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--Node js is server side scripting langauge.
+   asynchronous calls
+--package.json-- it contains metadata of the project
+
+-module.exports
+module-current module
+export---an object that exposes the module outside
+MIME TYPE
+Contennt Type
+
+JSON stands for JavaScript Object Notation
+JSON is a lightweight format for storing and transporting data
+JSON is often used when data is sent from a server to a web page
+JSON is "self-describing" and easy to understand
+
+
+blueBird
+--transllate all the call back  function into promises
+
+--Package consist of multiplr modules
+
+-onclick=event.stop.Propagation(); used for solution to bublling effect
+
+Node js Quetions
+1)What is Node JS
+ 2)diff between Asynchrnoud and Blocking
+3)Node JS is single or multithreded??
+  --why it is faster than others
+4)what is callback function
+3)Entery Point of node JS
+    ---require statment
+4)What is package.json
+   --it contains metadata of the project
+5)top modules
+  --http
+ --url
+ --fs
+6)if method or function is asynchrnous nd not use await then what will be the response
+  ---The keyword await makes JavaScript wait until that promise settles and returns its result.
+  --
+7)difference betwen then and catch function
+8)Async, await & then, catch
+--in parent function we have to declare async
+--nd function which returns promises we have to initialize keyword await
+
+9)what is routing
+ --which package we can used for routing
+     --express --in that method called route
+10)in middleware function what is request response and next
+11)Default port number for node js
+   ---3000
+12)http method
+   --get,put,post,
+13)3 types  to send information to server
+      req.param-single --user/id--only particular info
+      key,value pair--req.query
+    --req.body
+14)port number--for success 200
+      for request 400
+      internal server error--503//not sure
+    --HTTP response status codes indicate whether a specific HTTP request has been successfully completed. Responses are grouped in five classes:
+
+Informational responses (100–199),
+Successful responses (200–299),
+Redirects (300–399),
+Client errors (400–499),
+and Server errors (500–599).
+15)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

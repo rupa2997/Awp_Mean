@@ -1,0 +1,28 @@
+
+
+
+@media screen and (max-width:1200px){
+    .inner-container{
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .container{
+        background-size: 100%;
+        padding: 100px 50px;
+    }
+    .text-block{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .container{
+        padding: 0;
+    }
+    .text-block{
+        padding: 50px;
+        height: 190px;
+    }
+}

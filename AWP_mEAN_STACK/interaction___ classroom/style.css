@@ -1,0 +1,81 @@
+body{
+	font-family: 'Patua One', cursive;
+	background-color: rgba(235, 235, 235, 1);
+}
+
+.our-team{
+	text-align: center;
+	font-size: 80px;
+	font-weight: 900;
+}
+
+.b-border{
+	width: 80px;
+	height: 4px;
+	background-color: #dc2054;
+	margin: auto;
+	margin-bottom: 40px;
+}
+
+
+.member-image{
+	
+	border-radius: 107px;
+	background: linear-gradient(145deg, #f8f3f3, #d1cccc);
+	box-shadow:  6px 6px 12px #a09d9d, 
+             -6px -6px 12px #ffffff;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-size: cover;
+	object-fit: cover;
+}
+.member-image.m1{
+	background-image: url(image/ri.jpeg);
+}
+
+.member-image.m2{
+	background-image: url(image/mru.jpg);
+}
+
+.member-image.m3{
+	background-image: url(image/ru.jpg);
+}
+
+.member-image.m4{
+	background-image: url(image/dip.jpg);
+}
+
+.member-image.m5{
+	background-image: url(image/rup.jpeg);
+}
+
+.member-image.m6{
+	background-image: url(image/sa.jpg);
+}
+
+
+.name{
+	font-weight: 900;
+	color: #dc2054;
+}
+
+.social-icons a{
+	transition: 0.3s all;
+	font-size: 20px;
+	color: black;
+}
+
+.social-icons a:hover{
+	color: #dc2054;
+}
+
+.your-element{
+	transform-style: preserve-3d;
+	text-align: -webkit-center;
+	margin-top: 50px
+}
+
+.hover_3d{
+	 transform: translateZ(80px);
+}

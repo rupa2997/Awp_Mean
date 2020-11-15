@@ -1,0 +1,17 @@
+https://covid-19-data.p.rapidapi.com/help/countries?format=json
+
+https://covid-19-data.p.rapidapi=e15a378304msh7c8be99p1ba7b7jsn3504e4b82771.com/help/countries?format=json
+
+
+https://covid-193.p.rapidapi=e15a378304msh7c8be1c55a0be99p1ba7b7jsn3504e4b82771
+e15a378304msh7c8be1c55a0be99p1ba7b7jsn3504e4b82771
+https://covid-193.p.e15a378304msh7c8be1c55a0be99p1ba7b7jsn3504e4b82771.com/statistics
+
+
+https://covid1910.p.e15a378304msh7c8be1c55a0be99p1ba7b7jsn3504e4b82771.com/data/confirmed/country/us%2526canada/date/03-02-2020%252604-02-2020
+e15a378304msh7c8be1c55a0be99p1ba7b7jsn3504e4b82771
+
+weather details
+ZvoNQ5cfH32rKrcdmDkLCTeUd5o2itPw
+
+api.giphy.com/v1/gifs/search?api_key=lff4uWGMFSPBkrxbTA22sDur8GmAnQgB&q=funny

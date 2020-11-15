@@ -1,0 +1,59 @@
+---jQuery is a JavaScript Library.
+---jQuery Effects - Hide and Show
+--With jQuery, you can hide and show HTML elements with the hide() and show() methods:
+--The purpose of jQuery is to make it much easier to use JavaScript on your website.
+---jQuery takes a lot of common tasks that require many lines of JavaScript code to accomplish, and wraps them into methods that you can call with a single line of code.
+
+jQuery also simplifies a lot of the complicated things from JavaScript, like AJAX calls and DOM manipulation.
+
+The jQuery library contains the following features:
+
+HTML/DOM manipulation
+CSS manipulation
+HTML event methods
+Effects and animations
+AJAX
+Utilities
+
+----The following are more characteristics of JavaScript:
+
+Object-Centered Script Language
+Client edge Technology
+Validation of User’s Input
+Else and If Statement
+Interpreter Centered
+Ability to perform In Built Function
+Case Sensitive format
+Light Weight and delicate
+Statements Looping
+Handling Events
+
+
+--AJAX = Asynchronous JavaScript and XML. AJAX is a technique for creating fast and dynamic web pages. AJAX allows web pages to be updated asynchronously by exchanging small amounts of data with the server behind the scenes. This means that it is possible to update parts of a web page, without reloading the whole page
+
+
+--synchrnous and asychrnous code
+
+--XML is abbreviation for eXtensible Markup Language whereas HTML stands for Hypertext Markup Language. XML mainly focuses on transfer of data while HTML is focused on presentation of the data. ... XML is strict for closing tag while HTML is not strict. XML tags are extensible whereas HTML has limited tags.
+
+--what is json and ajax
+--levels of readtstate
+
+--why do we use json why not xml
+
+--what is closure in javascript
+--what is callback function
+--how to create cookie and how to access that cookie in  javascript
+--json.stringyfy ==convert js object to stringsand json.parse function
+
+--different ajac jquery method
+--cross side scripting
+
+
+
+
+
+
+
+
+

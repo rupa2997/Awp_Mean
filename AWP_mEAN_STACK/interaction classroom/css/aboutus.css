@@ -1,0 +1,89 @@
+
+body
+{
+  margin:0px;
+  padding:0px; 
+}
+
+ body,html{
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        background: #f1f1f1;
+        font-family: sans-serif;
+    }
+    .hero-image
+    {
+        position: relative;
+        height: 630px;
+        overflow: hidden;
+        background: url("image/about1.jpg") no-repeat center;
+        background-size:cover; 
+    }
+    .container-c
+    {
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        overflow: hidden;
+        text-align: center;
+        color: #000;
+        font-weight:500;
+        width: 45%;
+        border: none;
+        background: #fff; 
+    }
+
+    .container-c h1
+    {
+        text-transform: uppercase;
+        font-size: 52px;
+    }
+    .container-c h1 span
+    {
+        
+        display: inline-block;
+    }
+    .container-c p
+    {
+        padding: 0px 20px 20px 30px;
+    }
+.belifs
+{
+
+}
+.belifs h1
+{
+    font-size: 50px;
+    text-align: center;
+    margin:30px; 
+}
+
+
+
+@media screen and (max-width:1200px){
+    .inner-container{
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .container{
+        background-size: 100%;
+        padding: 100px 50px;
+    }
+    .text-block{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .container{
+        padding: 0;
+    }
+    .text-block{
+        padding: 50px;
+        height: 190px;
+    }
+}

@@ -1,0 +1,17 @@
+--- If interviewer ask about weakness then how can we convert our weaknesses into strength
+
+
+---Now becoz of this pandemic situation
+ We fresher will how to compete with experience people and which qualities will you like to see in fresher
+
+https://spoonacular.com/food-api/docs/?appid=bc1fed8bf24240558c104c3d485e78c7
+--bc1fed8bf24240558c104c3d485e78c7
+
+--- https://api.spoonacular.com/recipes/complexSearch?appid=bc1fed8bf24240558c104c3d485e78c7
+
+let url = "https://api.openweathermap.org/data/2.5/weather?appid=7023923dd26a725da995c75b65864de5&units=metric&q=" +
+    //cityName;
+
+https://fakerestapi.azurewebsites.net/api/Authors
+
+http://dummy.restapiexample.com/

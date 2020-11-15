@@ -1,0 +1,96 @@
+--what is javascript
+JavaScript is the Programming Language for the Web.
+JavaScript can update and change in  both HTML and CSS.
+JavaScript can calculate, manipulate and validate data.
+
+--JavaScript variables can be:
+Numbers
+Strings
+Objects
+Arrays
+Functions
+
+---Difference between var and let in JavaScript
+Last Updated: 07-08-2019
+var and let are both used for variable declaration in javascript but the difference between them is that var is function scoped and let is block scoped.
+It can be said that a variable declared with var is defined throughout the program as compared to let.
+
+What is DOM
+--The HTML DOM is a standard for how to get, change, add, or delete HTML elements.
+
+
+
+
+
+
+---Null
+Null is used to represent an intentional absence of value. It represents a variable whose value is undefined. It accepts only one value, which is null. The Null keyword is used to define the Null type in TypeScript, but it is not useful because we can only assign a null value to it.
+Eg--//Variable declared and assigned to null  
+var a = null;   
+       console.log( a );   //output: null  
+      console.log( typeof(a) );   //output: object  
+
+--Undefined
+It represents uninitialized variables in TypeScript and JavaScript. It has only one value, which is undefined. The undefined keyword defines the undefined type in TypeScript, but it is not useful because we can only assign an undefined value to it.
+-/Variable declaration without assigning any value to it  
+  var a;        
+  console.log(a);  //undefined  
+  console.log(typeof(a));  //undefined  
+   console.log(undeclaredVar);  //Uncaught ReferenceError: undeclaredVar   is not defined  
+
+
+
+----EvalError: Raised when the eval() functions is used in an incorrect manner.
+RangeError: Raised when a numeric variable exceeds its allowed range.
+ReferenceError: Raised when an invalid reference is used.
+SyntaxError: Raised when a syntax error occurs while parsing JavaScript code.
+TypeError: Raised when the type of a variable is not as expected.
+URIError: Raised when the encodeURI() or decodeURI() functions are used in an incorrect manner.
+
+Asynchrnous Programming----
+JavaScript is a single-threaded programming language which means only one thing can happen at a time. ... That's where asynchronous JavaScript comes into play. Using asynchronous JavaScript (such as callbacks, promises, and async/await), you can perform long network requests without blocking the main thread.
+
+1.which objects are used in javascript??
+--In JavaScript, almost "everything" is an object.
+
+Booleans can be objects (if defined with the new keyword)
+Numbers can be objects (if defined with the new keyword)
+Strings can be objects (if defined with the new keyword)
+Dates are always objects
+Maths are always objects
+Regular expressions are always objects
+Arrays are always objects
+Functions are always objects
+Objects are always objects
+
+2.how many columns are there in bootstraps--12
+
+3.javascript is server side or client side langauge
+
+4.methods of arrays in javascript
+push,pop,splice
+
+5.Exception handling in javascript
+
+6.syntax of for loop in javascript??
+for in ,for each
+
+7.how we convert string into integer
+
+8.different datatypes in js
+9.can we declare global and local variables in js?/
+10 what is anonyms function
+11.different types of popups
+12 how we check username and passwoed without clicking on submit button
+--onblur and onfocus
+
+
+--difference between XML and JSON
+--es6--new operator is used ,let nd var is used to declare& es5 var is declare
+
+---promises in javascript
+
+-can you develop js component using oops concept
+   --JavaScript is not a class-based object-oriented language. But it still has ways of using object oriented programming (OOP). In this tutorial, I'll explain OOP and show you how to use it. The most popular model of OOP is class-based.
+
+--prototop in javascript

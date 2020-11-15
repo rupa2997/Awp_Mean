@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <title>Document</title>
+    <!--<script>
+        function login() {
+            var uname = document.getElementById('uname').value;
+            var pawd = document.getElementById('pawd').value;
+            var re1 = /^(?=.*\d)(?=.*[A-Z])(?=.*[a-z])$/;
+            //var reg2 = /^(\w+)(\w+)(\w+)$/;
+            if (!reg2.test(uname)) {
+                alert("Invalid Usename. Enter Valid Username");
+            }
+            else if (!reg1.test(pawd)) {
+                alert("Invalid Password. Enter Valid Password");
+            }
+            else {
+                alert("Thank You For Login");
+            }
+        }
+    </script>-->
+    <script>
+        function login() {
+            var uname = document.getElementById('id1').value;
+            var pawd1 = document.getElementById('id2').value;
+            var reg2 = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{5,12}$/;
+            var reg1 = /^(\w+)@(\w+)\.(\w+)$/;
+            if (!reg1.test(uname)) {
+                alert(" usename invalid");
+            }
+            else if (!reg2.test(pawd1)) {
+                alert("  password invalid");
+            }
+            else {
+                function as() {
+                    location.replace("https://www.w3schools.com");
+                }
+            }
+
+
+
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row align-items-center sticky-top "
+            style="background-color: cyan;height: 2.8rem;border-bottom: 3px solid black;">
+            <div class="col-3">My Project</div>
+            <div class="col-9  ">
+                <div class="row justify-content-end ">
+                    <div class="col-4 col-md-2 "> Home</div>
+                    <div class="col-4 col-md-2 ">About Us</div>
+                    <div class="col-4 col-md-2 ">Contact Us</div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center  m-1" style="height:32rem ;">
+            <div class="col-6 "
+                style=" display:flex; justify-content: center;align-items: center;border: 2px solid cyan; border-radius:1.2rem;">
+                <div class="row justify-content-center align-items-center p-4"
+                    style="box-shadow: 3px 3px 12px rgba(0,0,0,0.8);border-radius: 5px;">
+                    <div class="col-12">
+                        <form action="">
+                            <div class="form-group">
+                                <label for="id1">Username</label>
+                                <input type="text" class="form-control" id="id1">
+                            </div>
+                            <div class="form-group">
+                                <label for="id2">Password</label>
+                                <input type="Password" class="form-control" id="id2">
+                            </div>
+                            <div>
+                                <input type="checkbox"> Remember Me
+                            </div>
+                            <div>
+                                <input type="submit" class="btn btn-block" onclick="login()"
+                                    style="background-color: cyan ;margin-top: 2px;">
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-6 " style="justify-content: center;align-items: center;border: 2px solid cyan; border-radius:1.2rem;display: flex;background-image: url(cdac.jpg);
+                background-position: center;background-repeat: no-repeat;background-size: cover;">
+                Welcome To cdac
+            </div>
+        </div>
+        <div class="footer"
+            style="position: fixed;left: 0;bottom: 0;text-align: center;padding: 2px;background-color: cyan;width: 100%;">
+            <div>Rupali Pangare</div>
+            <a href="">
+                rupali2997pangare@gmail.com </a>
+        </div>
+    </div>
+</body>
+
+</html>

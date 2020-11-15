@@ -1,0 +1,20 @@
+1--
+let person={firstname:"rupali",rollno:10,};
+--person.firstname;
+--person["firstname"]
+--list=[person];
+
+2.let arr=["Rupali","Sonali","Pallavi","shweta"];
+--arr[0]
+
+"Rupali"
+
+arr[3]
+
+--arr.splice(0,0,"Ruchika");
+--arr[2,1]
+--arr.push("ankita");
+-arr.pop();
+
+3.let list=[{id:10,firstname:"Rupali"},{id:20,firstname:"sharddha"}]
+--list[0]

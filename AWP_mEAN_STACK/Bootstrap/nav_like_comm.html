@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Document</title>
+    <script src="nav_like_comm.js">
+
+    </script>
+</head>
+
+<body>
+    <div class="container-fluid" style="background-color:crimson ;">
+        <div class="row bg-dark justify-content-between align-items-center sticky-top " style="height: 3.3rem;">
+            <div class="col-2" style="font-size: 2.2rem;">
+                Home
+            </div>
+            <div class="col-2">About Us</div>
+        </div>
+        <div class="row  mt-1 justify-content-center " style="height: 20.5rem;">
+            <div class="col-12 col-md-6 ">
+                <div class="row " style="height: 12.3rem;">
+                    <div class="col-12  d-flex justify-content-center align-items-center pr-1"
+                        style="border: 1px solid black;background-image: url('nature1.jpg');background-position: center;background-repeat: no-repeat;background-size: cover;">
+                    </div>
+                </div>
+                <div class="row mt-1">
+                    <div class="col-3 p-0 pr-1"><button class="btn btn-block btn-outline-secondary"
+                            onclick="likeBtn(this)" style="background-color: antiquewhite;">Like
+                            <span></span></button></div>
+                    <div class="col-6 pr-1"><input class="form-control" type="text" placeholder="Commenthere"></div>
+                    <div class="col-3 p-0"><button class="btn btn-block btn-outline-secondary"
+                            onclick="commenthere(this)" style="background-color: antiquewhite;">Comment</button></div>
+                </div>
+                <div class=commmentbox>
+                    <div class="row mt-1" style="visibility: hidden;">
+                        <div class="col-6 pr-1">
+                            sample comment
+                        </div>
+                        <div class="col-2 pr-1">
+                            <button class="btn btn-block btn-outline-secondary" onclick="deletecomm(this)"
+                                style="background-color: antiquewhite;">Delete</button>
+                        </div>
+                        <div class="col-2 pr-1">
+                            <button class="btn btn-block btn-outline-secondary" onclick="EditComm(this)"
+                                style="background-color: antiquewhite;">Edit</button>
+                        </div>
+                        <div class="col-2 p-0"><button class="btn btn-block btn-outline-secondary"
+                                onclick="cutBtn(this)">Cut</button></div>
+                    </div>
+                </div>
+                <div class="row justify-content-center mt-2 p-0">
+                    <div class="col-8 pr-1"><button class="btn btn-block btn-outline-secondary"
+                            onclick="deleteAll(this)" style="background-color: antiquewhite;">Clear All</button></div>
+                    <div class="col-4"><button class="btn btn-block btn-outline-secondary" onclick="disLike(this)"
+                            style="background-color: antiquewhite;">Dislike <i class="fa fa-free-code-camp"
+                                aria-hidden="true"></i></button></div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="row  mt-1 justify-content-center " style="height: 20.5rem;">
+            <div class="col-12 col-md-6 ">
+                <div class="row " style="height: 12.3rem;">
+                    <div class="col-12  d-flex justify-content-center align-items-center pr-1"
+                        style="border: 1px solid black;background-image: url('nature1.jpg');background-position: center;background-repeat: no-repeat;background-size: cover;">
+                    </div>
+                </div>
+                <div class="row mt-1">
+                    <div class="col-3 p-0 pr-1"><button class="btn btn-block btn-outline-secondary"
+                            onclick="likeBtn(this)" style="background-color: antiquewhite;">Like
+                            <span></span></button></div>
+                    <div class="col-6 pr-1"><input class="form-control" type="text" placeholder="Commenthere"></div>
+                    <div class="col-3 p-0"><button class="btn btn-block btn-outline-secondary"
+                            onclick="commenthere(this)" style="background-color: antiquewhite;">Comment</button></div>
+                </div>
+                <div class=commmentbox>
+                    <div class="row mt-1" style="visibility: hidden;">
+                        <div class="col-6 pr-1">
+                            sample comment
+                        </div>
+                        <div class="col-2 pr-1">
+                            <button class="btn btn-block btn-outline-secondary" onclick="deletecomm(this)"
+                                style="background-color: antiquewhite;">Delete</button>
+                        </div>
+                        <div class="col-2 pr-1">
+                            <button class="btn btn-block btn-outline-secondary" onclick="EditComm(this)"
+                                style="background-color: antiquewhite;">Edit</button>
+                        </div>
+                        <div class="col-2 p-0"><button class="btn btn-block btn-outline-secondary"
+                                onclick="cutBtn(this)">Cut</button></div>
+                    </div>
+                </div>
+                <div class="row justify-content-center mt-2 p-0">
+                    <div class="col-8 pr-1"><button class="btn btn-block btn-outline-secondary"
+                            onclick="deleteAll(this)" style="background-color: antiquewhite;">Clear All</button></div>
+                    <div class="col-4"><button class="btn btn-block btn-outline-secondary" onclick="disLike(this)"
+                            style="background-color: antiquewhite;">Dislike <i class="fa fa-free-code-camp"
+                                aria-hidden="true"></i></button></div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>

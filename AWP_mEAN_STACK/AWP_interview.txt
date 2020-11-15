@@ -1,0 +1,14 @@
+--javascript is called a dynamic language because it doesnot  just have few dynamic aspect
+
+--The following are more characteristics of JavaScript:
+
+Object-Centered Script Language
+Client edge Technology
+Validation of User’s Input
+Else and If Statement
+Interpreter Centered
+Ability to perform In Built Function
+Case Sensitive format
+Light Weight and delicate
+Statements Looping
+Handling Events

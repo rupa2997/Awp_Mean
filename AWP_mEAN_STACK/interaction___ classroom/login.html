@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Log In</title>
+<link rel="stylesheet" href="style_login.css">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+</script>
+<script>
+  $(document).ready(function(){
+     $(".Login-form2").hide();
+	 $(".faculty").css("background","rgba(243, 242, 242, 0.96)");
+	 $(".student").css("color","#34b3a0");
+	 $(".student").css("background","#fff");
+	 
+	 
+	 $(".faculty").click(function(){
+	        $(".Login-form1").hide();
+			$(".Login-form2").show();
+			$(".student").css("background","rgba(243, 242, 242, 0.96)");
+			$(".student").css("color","#000");
+			$(".faculty").css("background","#fff");
+			$(".faculty").css("color","#34b3a0");
+			$(".faculty").css("transition","all 1.0s ease");
+	 });
+	 
+	 $(".student").click(function(){
+	        $(".Login-form1").show();
+			$(".Login-form2").hide();
+			$(".student").css("background","#fff");
+			$(".student").css("transition","all 1.0s ease");
+			$(".student").css("color","#34b3a0");
+			$(".faculty").css("background","rgba(243, 242, 242, 0.96)");
+			$(".faculty").css("color","#000");
+	 });
+  
+     $(".btn").click(function(){
+	    $(".input").val("");
+	 });
+  });
+</script>
+</head>
+<body>
+    <div class="col-sm-4"><h2>Interaction Classroom</h2></div>
+    <div class="container">
+    <div class="student">Student Login</div>
+	<div class="faculty">Faculty Login</div>
+	<form action="/action_page.php" method="post" enctype="multipart/from-data">
+	<div class="Login-form1">
+	<div class="form-group" >
+    <label for="first"><b>Username</b></label>
+    <input type="text" placeholder="Enter ID" class="form-control" name="username" required>
+    </div>
+	<div class="form-group">
+    <label for="last"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" class="form-control" name="password" required>
+    </div>    
+    <button type="submit" name="submit">Login</button>
+    <label>
+      <input type="checkbox" class="form-control" name="remember"> Remember me
+    </label>
+  
+
+    <br>
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw"><a href="#">Forgot password?</a></span>
+    </div>
+	</form>
+	
+	
+	<form action="/action_page.php" method="post" enctype="multipart/from-data">
+	<div class="Login-form2">
+	<div class="form-group">
+    <label for="first"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" class="form-control" name="username" required>
+    </div>
+	<div class="form-group">
+    <label for="last"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" class="form-control" name="password" required>
+    </div>    
+    <button type="submit" name="submit2">Login</button>
+    <label>
+      <input type="checkbox" class="form-control" name="remember"> Remember me
+    </label>
+  
+
+    <br>
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw" style="color:#34b3a0;"><a href="#">Forgot password?</a></span>
+    </div>
+	</form>
+	</div>
+</body>
+</html>

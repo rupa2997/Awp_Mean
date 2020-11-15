@@ -1,0 +1,156 @@
+--Node js is server side scripting langauge.
+   asynchronous calls
+--package.json-- it contains metadata of the project
+
+-module.exports
+module-current module
+export---an object that exposes the module outside
+MIME TYPE
+Contennt Type
+
+JSON stands for JavaScript Object Notation
+JSON is a lightweight format for storing and transporting data
+JSON is often used when data is sent from a server to a web page
+JSON is "self-describing" and easy to understand
+
+
+blueBird
+--transllate all the call back  function into promises
+
+--Package consist of multiplr modules
+
+-onclick=event.stop.Propagation(); used for solution to bublling effect
+
+Node js Quetions
+1)What is Node JS
+  --Node.js runs single-threaded, non-blocking, asynchronously programming, which is very memory efficient.
+latest version node.js 14.0.8
+  12.18.3  is stable one
+12--major version
+18--minor version
+.3--bug related
+to check --node -v
+ 
+ 2)diff between Asynchrnoud and Blocking
+3)Node JS is single or multithreded??
+  --why it is faster than others
+4)what is callback function
+3)Entery Point of node JS
+    ---require statment
+4)What is package.json
+   --it contains metadata of the project
+5)top modules
+  --http
+ --url
+ --fs
+6)if method or function is asynchrnous nd not use await then what will be the response
+  ---The keyword await makes JavaScript wait until that promise settles and returns its result.
+  --
+7)difference betwen then and catch function
+8)Async, await & then, catch
+--in parent function we have to declare async
+--nd function which returns promises we have to initialize keyword await
+
+9)what is routing
+ --which package we can used for routing
+     --express --in that method called route
+10)in middleware function what is request response and next
+11)Default port number for node js
+   ---3000
+12)http method
+   --get,put,post,
+13)3 types  to send information to server
+      req.param-single --user/id--only particular info
+      key,value pair--req.query
+    --req.body
+14)port number--for success 200
+      for request 400
+      internal server error--503//not sure
+    --HTTP response status codes indicate whether a specific HTTP request has been successfully completed. Responses are grouped in five classes:
+
+Informational responses (100–199),
+Successful responses (200–299),
+Redirects (300–399),
+Client errors (400–499),
+and Server errors (500–599).
+15)module
+--is a program that writtem by us
+ internal module
+--which comes bydefault with the node js
+ external module
+--we have to install external packages
+
+16)npm-node package manager
+   npm -v ---
+  npm init--to install  prebuild package.json
+       ---to initialize the project--keep the information about version project name--npm init
+      --help us to install an external modules nd uninstall
+17)npm install bluebird---help us to download external modules
+     --avaible on internet
+npm js --all external modules available
+18)dependencies--what are the external packages are install in our project that all are mention in the dependencies
+
+18)by using async .function makes async nd return promises
+19)we can make methos either by using async key or call back functions
+---blubird convert callback into async
+   
+
+27-08-2020
+1)v8 javascript engine in node
+--v8 is js engine for chrome engine
+  they just modify chrome engine nd created node.js
+2)call back in node.js
+--Callback is an asynchronous equivalent for a function. A callback function is called at the completion of a given task. Node makes heavy use of callbacks. All the APIs of Node are written in such a way that they support callbacks.
+
+For example, a function to read a file may start reading file and return the control to the execution environment immediately so that the next instruction can be executed. Once file I/O is complete, it will call the callback function while passing the callback function, the content of the file as a parameter. So there is no blocking or wait for File I/O. This makes Node.js highly scalable, as it can process a high number of requests without waiting for any function to return results.
+
+3)npm js library
+4)dev dependency
+--used onli for development not affect running of project
+--npminstall -m--to install nodemon
+--dev env--prod env
+nodeman server continuously check that node.js file running
+--npm is a global library for node
+--npm--to check libraries of node.js
+
+--weekly downloads
+--versions
+--issues
+
+
+5)testing framework
+--karma.js--for unit testing
+
+
+
+28-08-2020
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

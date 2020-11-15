@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="weather.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="contanier-fluid">
+        <div class="row justify-content-center align-items-center mt-1 text-light"
+            style="height: 65px;color:#fff;background-color: darksalmon;" id="parent1">
+            <div class="col-3 p-0"><input type="text" placeholder="City Name" id="cityname"
+                    style="padding: 3px;border: none;outline: none;border-bottom: 2px solid #000;background: none;color: #fff;">
+            </div>
+            <div class="col-3 p-0"><button class="btn btn-outline-secondary btn-block" onclick="weather()">Search
+                    Weather</button></div>
+        </div>
+        <div id="child1">
+            <div class="row  justify-content-center  mt-1 text-light "
+                style="font-size: 20px;font-family: cursive;padding: 5px;display:none;background-color:gray;margin-left:2px;margin-right: 2px;"
+                id="child2">
+
+                <div class="col-2 ">City Name: <span></span></div>
+                <div class="col-2">Temperature : <span></span></div>
+                <div class="col-2">Country:<span></span> </div>
+                <div class="col-2 ">Description :<span></span></div>
+                <div class="col-2  ">Humidity :<span></span></div>
+                <div class="col-2  "><img src="icons/unknown.png" alt=""></div>
+            </div>
+        </div>
+</body>
+
+</html>

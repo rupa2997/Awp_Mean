@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1 {
+
+            height: 100vh;
+
+        }
+    </style>
+    <script src="calsi.js"></script>
+</head>
+
+<body>
+    <div class="box1">
+        <label for="number1">Number 1</label>
+        <input type="text" placeholder="enter 1st number" id="num1"><br><br>
+        <label for="number2">Number 2</label>
+        <input type="text " placeholder="enter 2nd number" id="num2"><br><br>
+        <label for="number2">Answer</label>
+        <input type="text " placeholder="answer" id="ans"><br><br>
+        <select name="" id="opt">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="/">/</option>
+            <option value="*">*</option>
+        </select>
+        <button onclick="compute()">Submit</button>
+    </div>
+</body>
+
+</html>

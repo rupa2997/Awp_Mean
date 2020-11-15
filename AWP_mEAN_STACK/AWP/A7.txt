@@ -1,0 +1,81 @@
+1---function rupali()
+{
+console.log("Hi.... Rupali Here");
+}
+
+2--let ru=function sonali()
+{
+console.log("hello sonali here");
+}
+
+3.function pallavi()
+{
+rupali();
+}
+--pallavi();
+4.function pallavi(fn)
+{
+fn();
+}
+
+pallavi(rupali);
+Hi.... Rupali Here
+undefined
+pallavi(sonali);
+
+pallavi(ru);
+
+
+hello sonali here
+
+5.let sona=function(){
+console.log("hey.....cutie");
+}
+
+undefined
+let 
+sona();
+
+6.let ru=()=>{
+console.log("hey .......ru");
+}
+
+undefined
+
+ru();
+
+ hey .......ru
+
+7.function helloworld(fn)
+{
+fn();
+}
+
+helloWorld(() => {
+  
+
+  console.log("Callback using Arrow functions");
+
+});
+
+8.let kizi=()=>{
+console.log("my name is kizi basu");
+};
+
+undefined
+
+kizi();
+
+ my name is kizi basu
+
+
+
+
+
+
+
+
+
+
+
+

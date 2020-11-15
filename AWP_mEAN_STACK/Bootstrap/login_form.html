@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        .box1 {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .box2 {
+            flex: 1;
+            background-color: rgb(65, 62, 62);
+        }
+
+        .box3 {
+            flex: 10;
+            background-color: cyan;
+            display: flex;
+        }
+
+        .box4 {
+            flex: 0.8;
+            background-color: rgb(65, 62, 62);
+        }
+
+        .box5 {
+            flex: 2;
+            background-color: honeydew;
+        }
+
+        .box6 {
+            flex: 8;
+            background-color: lightgrey;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .box7 {
+            flex: 1;
+            border: 2px solid white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box8 {
+            flex: 7;
+            display: flex;
+
+
+        }
+
+        .box9 {
+            flex: 1;
+            border: 2px solid white;
+        }
+
+        .box10 {
+            flex: 1;
+            background-color: blanchedalmond;
+
+        }
+
+        .box11 {
+            flex: 1.5;
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+        }
+
+        .box12 {
+            flex: 2;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 3px;
+
+        }
+
+        .box12 input {
+            outline: none;
+            border: none;
+            border-bottom: 2px solid black;
+            background: none;
+            margin-bottom: 15px;
+            margin: 2px;
+        }
+
+        .box13 {
+            flex: 1;
+
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin-right: 10px;
+        }
+
+        .box14 {
+            flex: 2;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box14 button {
+            width: 10.8rem;
+            height: 2.8rem;
+            border-radius: 7px;
+
+        }
+
+        .box15 {
+            flex: 4;
+
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .box15 i {
+            padding: 5px;
+        }
+
+        .box16 {
+            flex: 2;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+    </style>
+    <script>
+        function login() {
+            var uname = document.getElementById('id1').value;
+            var pawd1 = document.getElementById('id2').value;
+            var reg2 = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{5,12}$/;
+            var reg1 = /^(\w+)@(\w+)\.(\w+)$/;
+            if (!reg1.test(uname)) {
+                alert(" usename invalid");
+            }
+            else if (!reg2.test(pawd1)) {
+                alert("  password invalid");
+            }
+
+
+
+        }
+    </script>
+</head>
+
+<body>
+    <div class="box1">
+        <div class="box2">
+
+        </div>
+        <div class="box3">
+            <div class="box5"></div>
+            <div class="box6">
+                <div class="box7">Login Form</div>
+                <div class="box8">
+                    <div class="box10"></div>
+                    <div class="box11">
+
+                        <div class="box12">
+                            <form action="">
+                                <label for="id1">Username</label>
+                                <input type="text" name="name1" id="id1" placeholder="Username" minlength="3"
+                                    maxlength="15" required>
+
+                        </div>
+                        <div class="box12">
+                            <label for="id2">Password</label>
+                            <input type="text" placeholder="Username" minlength="5" maxlength="12" id="id2" required>
+
+                        </div>
+                        <div class="box13">
+                            forgot password
+                        </div>
+                        <div class="box14">
+                            <button onclick="login()">Log In</button>
+                        </div>
+                        <div class="box15">
+                            <div style="flex: 1;">Or Sign Up Using</div>
+                            <div style="flex: 1;padding: 5px;display: flex;">
+                                <div style="background-color: blue;padding: 7px;border-radius: 45%;margin: 6px;"> <i
+                                        class="fa fa-facebook" aria-hidden="true"></i>
+                                </div>
+                                <div style="background-color: blue;padding: 5px;border-radius: 45%;margin: 6px;"><i
+                                        class="fa fa-twitter" aria-hidden="true"></i></div>
+                                <div style="background-color: blue;padding: 5px;border-radius: 45%;margin: 6px;"><i
+                                        class="fa fa-google" aria-hidden="true"></i></div>
+                            </div>
+
+
+
+                            <div style="flex: 3;"></div>
+                        </div>
+                        <div class="box16">
+                            <div> Have not Account yet??</div>
+                            <div>Sign Up</div>
+                        </div>
+                        </form>
+                    </div>
+                    <div class="box10"></div>
+                </div>
+                <div class="box9"></div>
+            </div>
+            <div class="box5"></div>
+        </div>
+        <div class="box4">
+
+        </div>
+    </div>
+</body>
+
+</html>

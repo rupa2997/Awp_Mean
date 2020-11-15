@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Login Form</title>
+    <style>
+        i {
+            margin-right: 5px;
+        }
+    </style>
+    <script src="2.js">
+
+    </script>
+</head>
+
+<body>
+    <div class="row   align-items-center  text-dark sticky-top"
+        style="height: 65px;font-family:cursive;font-size: 20px;background-color: cyan;border-bottom: 2px solid black;">
+        <div class=" col-4 col-md-6 pl-4">Rupali Pangare</div>
+        <div class="col-6 col-md-6 d-flex justify-content-center">Navi Mumbai</div>
+    </div>
+    <div class="row justify-content-center mt-2" style="font-size: 2.3rem;font-family: cursive;">Login Form</div>
+    <div class="row justify-content-center mt-3">
+        <div class="col-10 col-md-4 d-flex flex-column " style="padding: 4px;">
+            <div class="row border justify-content-center align-items-center"
+                style="box-shadow: 3px 3px 12px rgba(0,0,0,0.8);height: 300px;">
+                <div class="col-8 d-flex justify-content-center ">
+                    <form action="">
+                        <div class="form-group">
+                            <label for="uname"
+                                style="color: black;font-family:Verdana, Geneva, Tahoma, sans-serif;">UserName</label>
+                            <input type="text" name="uname" class="form-control" placeholder="Enter Username" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="pwd"
+                                style="color: black;font-family:Verdana, Geneva, Tahoma, sans-serif;">Password</label>
+                            <input type="password" name="pwd" class="form-control" placeholder="Enter Password"
+                                required>
+                        </div>
+                        <div style="padding-bottom:6px;">
+                            <button class="btn btn-block btn-outline-secondary" style="background-color: cyan;"
+                                onclick="login(this)"
+                                style="color: black;font-family:Verdana, Geneva, Tahoma, sans-serif;">Login</button>
+                        </div>
+                        <div>
+                            <div style="display:flex;padding:8px;justify-content:center;align-items-center;"><i
+                                    class="fa fa-facebook "></i>
+                                <i class="fa fa-twitter "></i>
+                                <i class="fa fa-google "></i></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="logindetails">
+                <div class="row justify-content-between "
+                    style="visibility: hidden;border:2px solid black;padding: 4px;margin-top:4px ;">
+                    <div class="col-6">Username: <span></span></div>
+                    <div class="col-6">Password: <span></span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

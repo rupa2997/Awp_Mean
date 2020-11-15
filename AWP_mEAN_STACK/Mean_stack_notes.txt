@@ -1,0 +1,451 @@
+mysql -u root -p
+
+
+
+
+--express is a framework--npm install express
+--app.get(); is a methos--takes 2 parameters
+  --app.get("/")--/--indicates accept all paramters
+www--subdomain
+gooogle--domain name
+.com--extension
+https://www.google.com/search?q=nodejs--default port 80
+http://localhost:3000----make url  i.e--http://localhost:3000/search
+/search--indicates  http://localhost:3000/search
+--we can meke unlimited url--URL/API/REST API
+
+-client nd server communicates with each other in json lang
+--req--read the data comming from tha client
+
+--npm i mysql
+--npm i express
+--npm i bluebird
+--npm i bootstrap
+--npm i jquery
+--npm install cors
+app.use(express.json)--read the data from body and convert it into json--so in req.body it automatically convert data into json text to format
+--app.use--middleware prog used to running prog before hitting the server
+--app.use(cors())--unblocking policy
+
+http bydefault understand string lang
+=========================================
+28-08-2020
+how to setup angular project
+   --
+
+react is powerby facebook
+Angular is power by google 
+
+--module containes information about the components
+--Component is a reusable UI
+--Components is a contaner of all
+--Angular is a client side MVC framework
+
+--create new project
+    --ng new my-app2
+    or- ng new rup--app --skip--install--to skip the installations of all modules
+
+if find package.json--then it is a angular /node project
+--if node_modules is not there then use command npm install
+--at a time only onr angular file run
+   --instead of that change the port
+--to start the project use----npm start-bcz ng serve cpmmand takes to much time
+--ng build--create dist /folder_name
+--we install  we those modules in package.json that will be supported by broser--but in case of angular
+we can install any module but that cannt be supported
+--app.routing.module will be created when we type yes at the time of installation nd creating of file
+
+-we can create multiple webpages in angular using multiple components--using UI
+--ng g c folder_name --skipTests--spec file will not generate i.e testing file
+
+--<router-outlet></router-outlet>--give the path of the pages-in component.html--all web pages outlet
+--app-routing.module.ts--give all webpages routes--
+     --const routes:Routes=[{path:'1 ', component:Page1Component },
+       {path:'2', component:Page1Component }
+       {path:'3', component:Page1Component }
+         ]
+    --url of the webpages will be--localhost:4200/1, localhost:4200/2, localhost:4200/3
+    -- default page-{path:' ', redirectTo:'/1', pathMatch:'full'}
+     --a tag--routerLink='/1'-to render to another page--while redirect to the next page --page cannt be referesh----one more button also used incase a tag--and fire event binding to redirect to another page
+   (click)=gotoPage()
+
+   appComponent.ts
+  constructor(private router:Router){}
+
+ --   gotoPage(page){
+                 
+
+     }
+
+
+datatype-router:Router--type
+--angular font awesome--doc section--foe 10 angulae--fA version 0.7x
+
+
+--when we create new page thinks to downloads
+=======================================
+--npm install
+--npm install bootstraop
+--install font awesome
+--chnage in styles.css//ng-add--ng-bootstrap----components--ng bootstrap/@ng-bootsrapangular bbotstrap
+--npm start
+---tested in app componant that succesfully installed or not--bt typeng the some message on app.com.html
+--(import and declare) added modules in modules.ts--HttpClientModule,Reactiveform,FontAwesomeModule,
+--import httpClient in component.ts
+--.toPromise--convert files nd give response
+
+--ng g c login --skipTests
+--ng g c Signup --skipTests
+--ng g c Forgot --skipTests
+--ng g c Errorpage --skipTests
+
+--ng add @ng-bootstrap/ng-bootstrap
+
+
+
+
+
+-constructor(private http:HttpClient)--Ajax object
+--implements onInit--onload
+--ngOnInit--
+--Ajax call is uded using n=angular
+--Debugger for chrome extension download
+====================================
+to create service
+--ng g service service/hello--create a service folder and in that all services mention
+   ---insert common information
+   --servuces info can be available to all components--it is       injectable services
+--services are part of module
+--to add the services we have to add http modules
+-everything is a part of modules i.e --directive,services,modules
+
+--FormBuilder service--apply validations
+--Router Service--move from one page to another
+--Http--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ --these is the advantange
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+====================
+Client Side
+Mobile App/Desaktop/ Web App as well
+js used client side and server side as well
+node js (server side)
+ExpressJS(Server Side)
+
+
+Typescript--similar to js littel bit different ---use js and datatypes also
+for number--mynum,num
+ts automatically converted into js
+
+data types declare at left side
+let ii:number=100;
+let pi:number=3.14;
+let sstr:string="HelloWorld";
+let test:boolean=false;
+
+let daata:any={}
+let arrr:any[]=[];
+let hello11=function(){}
+let sum=(n1:number,n2:number)=>{
+return n1+n2;
+}
+
+--typescript overtaken designed by microsoft
+--angular enhanced  the DOM operations
+--(Parent--js +datatype)typescript is superset of javascript
+--we can export file in ts--export {calculator}-- 
+--import {calculator} from "./hello";
+or export class calculator{
+} 
+
+--if we want to declare a function and export also
+export let hello= () => {};
+--export let pi=3.14;
+
+4 types of  module in angular
+--global,external,local,internal
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+========================================================================
+1)how to solve process out of memory in node.js
+--this error occurs when the memory allocated for the execution application is less than the required memory when run application. by default the memory limit in Node.js is 512 mb, to  solve these issue you need to incrase the memory llimit use command --max-old-space- size.it can be avoid the memory limit issue 
+the following command will start the server.js with a memory limit of 8gb node--max-old-space-size=8192 server.js
+please notice the order of arguments after the node command you need to add desireed parameters first to adjust the related values approximately. then start the file that should run as node.js process
+=================================
+
+2)the map method creates a new array with the result of calling of provided function on every element in the calling arrey 
+map calls a provided callback function once for each element in an  arrey ,in order and returns a new arrey from the results
+syntex :-
+map(callback(currentValue, index, arrey),thisArg);
+--map method will create new array  --provide in the call back function
+thisArg point to the current object
+1st argu--current value--return current value of the array
+2nd argu--index number
+3rd argu--will return arr
+index array both will be optional
+map will be run on each element of the array
+map method wil not modify to the original array
+if we not specify return the new array wil be specified as undefined we have to return it the value of new array
+
+var arr=[{price:"100",product:"Mobile"},{price:"200",product:"Laptop"},
+{price:"300",product:"Mic"},{price:"400",product:"Pc"}];--array object
+arr.map(function(value){
+    console.log(value);
+})
+
+to access particular val we used value.price
+
+var newArr=arr.map(function(value){
+   return value.price;
+});
+
+console.log(newArr);
+object array will be represented in array form
+
+--it will be helpfull in realworld project
+
+==============
+forEach() — executes a provided function once for each array element.
+map() — creates a new array with the results of calling a provided function on every element in the calling array.
+
+Well, the forEach() method doesn’t actually return anything (undefined). It simply calls a provided function on each element in your array. This callback is allowed to mutate the calling array.
+Meanwhile, the map() method will also call a provided function on every element in the array. The difference is that map() utilizes return values and actually returns a new Array of the same size.
+
+let arr = [1, 2, 3, 4, 5];
+
+arr.forEach((num, index) => {
+    return arr[index] = num * 2;
+});
+
+// arr = [2, 4, 6, 8, 10]
+----------------------------
+Map:
+let doubled = arr.map(num => {
+    return num * 2;
+});
+Result:
+// doubled = [2, 4, 6, 8, 10]
+
+
+let arr = [1, 2, 3, 4, 5];
+let arr2 = arr.map(num => num * 2).filter(num => num > 5);
+// arr2 = [6, 8, 10]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://www.youtube.com/watch?v=sDRrr6RsRlQ
+=========================================
+1)What is JIT and how is it related to Node JS?
+--JIT stands for Just-in-time. A JIT compiler is a program which is used to send bytecode (it consists of instruction that can be interpreted) to the processor by converting it into instruction. After you have done with writing a program, the compiler compiles the source language statements into bytecode instead of compiling it into the code that carries the information which is similar to the specific hardware platform's processor.
+Relation of JIT with Node: Virtual machine of Nodejs has JIT compilation which improves the execution speed of the code. The virtual machine takes the source code and converts to machine code in runtime. By this, the hot functions which are called very often are compiled to machine code and, hence increasing speed.
+
+2) Does Node.js support multi-core platforms? And is it capable of utilizing all the cores?
+Answer.
+
+Yes, Node.js would run on a multi-core system without any issue. But it is by default a single-threaded application, so it can’t completely utilize the multi-core system.
+
+However, Node.js can facilitate deployment on multi-core systems where it does use the additional hardware. It packages with a Cluster module which is capable of starting multiple Node.js worker processes that will share the same port.
+
+3)What is LTS releases of Node.js why should you care?
+---
+An LTS(Long Term Support) version of Node.js receives all the critical bug fixes, security updates and performance improvements.
+
+LTS versions of Node.js are supported for at least 18 months and are indicated by even version numbers (e.g. 4, 6, 8). They're best for production since the LTS release line is focussed on stability and security, whereas the Current release line has a shorter lifespan and more frequent updates to the code. Changes to LTS versions are limited to bug fixes for stability, security updates, possible npm updates, documentation updates and certain performance improvements that can be demonstrated to not break existing applications.
+
+https://www.codingame.com/playgrounds/347/javascript-promises-mastering-the-asynchronous/how-to-join-promises
+
+37. How can we handle concurrent requests?
+
+Javascript functions should be written to handle concurrent requests and call back function can be passed as a parameter. Those parameters are passed to AjaxInteraction(URL, callback) object.
+==========
+78. Explain the unshift() method ?
+
+This method is functional at the starting of the array, unlike the push(). It adds the desired number of elements to the top of an array. For example -
+
+var name = [ "john" ];
+name.unshift( "charlie" );
+name.unshift[ "joseph", "Jane" ];
+console.log(name);
+
+==========================================================
+What is Cross Site Scripting (XSS)? 
+Answer
+By using Cross Site Scripting (XSS) technique, users executed malicious scripts (also called payloads) unintentionally by clicking on untrusted links and hence, these scripts pass cookies information to attackers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

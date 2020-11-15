@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=sc, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //map(callback(currentValue, index, arrey),thisArg);
+        var arr = [10, 20, 30, 40, 50];
+        var newArr = arr.map(function (value) {
+
+            return (value * 2);
+        });
+
+        console.log(arr);
+        console.log(newArr);
+
+
+
+        /*var arr = [
+            { price: "10000", product: "Mobile" },
+            { price: "200000", product: "Laptop" },
+            { price: "1200", product: "Mic" },
+            { price: "40000", product: "Pc" }
+        ];
+        var newArr = arr.map(function (value) {    //var newArr= arr.map(value=> value.product);    console.log(newArr);
+            return value.product;
+        });
+
+        console.log(arr);
+        console.log(newArr);*/
+
+
+
+        /*var arr = [10, 20, 30, 40, 50];
+        let newArr = arr.map(value => value * 2).filter(value => value > 40);
+
+        console.log(arr);
+        console.log(newArr);*/
+
+        /*var arr = [10, 20, 30, 40, 50];
+       arr.forEach((num, index) => {
+           return arr[index] = num * 2;
+       });
+       console.log(arr);
+
+
+
+        /* var arr = [10, 20, 30, 40, 50];
+         var newArr = [];
+         arr.forEach(function (value) {
+             newArr.push(value * 2);
+
+         })
+         console.log(arr);
+         console.log(newArr);*/
+
+    </script>
+</body>
+
+</html>
